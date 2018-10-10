@@ -41,7 +41,7 @@ int Solution::removeDuplicates(vector<int> &A) {
         else{
             if(count < 2){
                 A[i] = A[j];
-                i++;**
+                i++;
             }
             count++;
         }
